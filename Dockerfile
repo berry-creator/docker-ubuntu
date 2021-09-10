@@ -2,7 +2,7 @@ FROM ubuntu:focal
 
 LABEL vendor=letsdone \
   maintainer="letsdone" \
-  name="ubuntu focal base image for aarch64" \
+  name="ubuntu focal base image" \
   build-date="2021-09-10"
 
 ENV LANG=C.UTF-8
