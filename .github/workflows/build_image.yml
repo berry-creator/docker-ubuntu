@@ -4,6 +4,7 @@ name: build docker image
 on:
   push:
     tags:
+      - '*'
 
 env:
   DOCKERHUB_REPO: letsdone/ubuntu
